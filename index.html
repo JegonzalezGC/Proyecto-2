@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Document</title>
+  
+</head>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  
+ <form id="survey-form">
+<div class="box_1">
+  <div id="name">
+    <label for="usarname"><strong>Name</strong></label><br>
+    <input  type="text" placeholder="Enter your name" name="usarname" required>
+  </div>
+  <div id="email">
+    <label  for="email"><strong>Email</strong></label> <br>
+    <input type="email" placeholder="Enter your email" name="email" required>
+  </div>
+  <div id="number">
+    <label for="number"><strong>Age(optional)</strong></label> <br>
+    <input type="number" placeholder="Age" name="number" required>
+  </div><br>
+  <div>
+    <label> <strong> Wich option best describes your current role?</strong><br>
+    <input type="list" list="dropdown" placeholder="Select current role" required>
+   <datalist id="dropdown">
+<option>Student</option>
+<option>Full Time Job</option>
+<option>Full Time Learner</option>
+<option>Prefer not to say</option>
+<option>Other</option>
+</datalist>
+  </label>
+  </div>
+  <div>
+    <label> <strong>Would your recommend freeCodeCamp to a friend?</strong><br>
+      <input name="option" type="radio">
+      Definitely
+    </label>
+  </div>
+  <div>
+    <label>
+      <input name="option" type="radio">
+      Maybe
+    </label>
+  </div>
+  <div>
+    <label>
+      <input name="option" type="radio">
+      Not sure
+    </label>
+  </div>
+  <div>
+    <label><strong> What is your favorite feature or freeCodeCamp</strong><br>
+    <input type="list" list="job" placeholder="Select an option" required>
+   <datalist id="job">
+<option>Challenges</option>
+<option>Projects</option>
+<option>Community</option>
+<option>Open Source</option>
+   </div>
+    <div>
+      <label>
+        <input type="checkbox">
+        Front-end Projects
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox">
+        Back-end Projects
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox">
+        Data Visualization
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox">
+        Challenges
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox">
+        Open Source Community
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox">
+        Gitter help rooms
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox">
+        Video
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox">
+        City Meetups
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox">
+        Wiki
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox">
+        Forum
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox">
+        Additional Courses
+      </label>
+    </div>
+    <div>
+    <label for="message"> <strong>Any comments or suggestions?</strong></label> <br>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+  </div>
+  <input type="submit" value="submit">
+  </div>
+</div>
+
+</form>
+
+</div>
+</body>
+</html>
